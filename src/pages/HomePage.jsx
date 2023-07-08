@@ -76,7 +76,7 @@ const HomePage = () => {
           Codeforces
         </label>
 
-        <label className='flex gap-1' htmlFor='geeksforgeeks'>
+        {/* <label className='flex gap-1' htmlFor='geeksforgeeks'>
           <input
             id='geeksforgeeks'
             type='checkbox'
@@ -84,7 +84,7 @@ const HomePage = () => {
             onChange={changeHandler}
           />
           GeeksForGeeks
-        </label>
+        </label> */}
 
         <button className='bg-cyan-600 rounded-md py-1 px-2'>Submit</button>
       </form>
